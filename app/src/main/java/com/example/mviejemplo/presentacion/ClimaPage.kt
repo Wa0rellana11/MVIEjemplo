@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 
 @Composable
 fun ClimaPage(
-
+    modifier: Modifier = Modifier
 ) {
     val viewModel = ClimaViewModel()
     ClimaView(
