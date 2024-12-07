@@ -1,4 +1,13 @@
 package com.example.mviejemplo.presentacion
 
-class ClimaView {
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+
+@Composable
+fun ClimaView(
+    modifier: Modifier = Modifier,
+    estado: ClimaEstado,
+    ejecutar:(ClimaIntencion) -> Unit
+){
+
 }
